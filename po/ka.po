@@ -1,0 +1,682 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the virt-viewer package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: virt-viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-28 11:18+0200\n"
+"PO-Revision-Date: 2022-07-31 11:19+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
+"virt-viewer/virt-viewer/ka/>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
+
+#, c-format
+msgid ""
+"\n"
+"Error: can't handle multiple URIs\n"
+"\n"
+msgstr ""
+"\n"
+"შეცდომა: შეუძლებელია 1-ზე მეტი URI\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"No ID|UUID|DOMAIN-NAME was specified for '%s'\n"
+"\n"
+msgstr ""
+"\n"
+"%s-სთვის არაა მითითებული ID|UUID|დომენის-სახელი\n"
+"\n"
+
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTIONS] [ID|UUID|DOMAIN-NAME]\n"
+"\n"
+msgstr ""
+"\n"
+"გამოყენება: %s [პარამეტრები] [ID|UUID|დომენის-სახელი]\n"
+"\n"
+
+#. translators:
+#. * This is "<ungrab accelerator> <subtitle> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s %s - %s"
+msgstr "%s %s - %s"
+
+#. translators:
+#. * This is "<ungrab accelerator> - <appname>"
+#. * Such as: "(Press Ctrl+Alt to release pointer) - Virt Viewer"
+#.
+#. translators:
+#. * This is "<subtitle> - <appname>"
+#. * Such as: "BigCorpTycoon MOTD - Virt Viewer"
+#.
+#, c-format
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#, c-format
+msgid "%s version %s"
+msgstr "%s-ის ვერსია %s"
+
+#, c-format
+msgid "(Press %s to release pointer)"
+msgstr "(კურსორის გასათავისუფლებლად დააჭირეთ %s-ს)"
+
+msgid "<b>Loading...</b>"
+msgstr "<b>ჩატვირთვა...</b>"
+
+msgid "<never|always>"
+msgstr "<არასდროს|ყოველთვის>"
+
+msgid "<never|on-disconnect>"
+msgstr "<არასდროს|კავშირის დაკარგვისას>"
+
+msgid "A remote desktop client built with GTK-VNC, SPICE-GTK and libvirt"
+msgstr ""
+"დისტანციური სამუშაო მაგიდის კლიენტი იყენებს GTK-VNC, SPICE-GTK, და libvirt-ს"
+
+msgid "About Virt-Viewer"
+msgstr "Virt-Viewer-ის შესახებ"
+
+msgid "Access remote desktops"
+msgstr "წვდომა დისტანციურ სამუშაო დაფებთან"
+
+#, c-format
+msgid "Address is too long for UNIX socket_path: %s"
+msgstr "მისამართი %s ძალიან გრძელია"
+
+#, c-format
+msgid "At least %s version %s is required to setup this connection"
+msgstr "%s-თან კავშირის დასამყარებლად საკმარისი მინიმალური ვერსიაა %s"
+
+#, c-format
+msgid ""
+"At least %s version %s is required to setup this connection, see %s for "
+"details"
+msgstr ""
+"%s-თან კავშირის დასამყარებლად საკმარისი მინიმალური ვერსიაა %s. დეტალებისთვის "
+"იხილეთ %s"
+
+msgid "Attach to the local display using libvirt"
+msgstr "ლოკალურ ეკრანთან libvirt-ით მიერთება"
+
+msgid "Authentication failed."
+msgstr "ავთენტიკაცია წარუმატებელია."
+
+#, c-format
+msgid ""
+"Authentication is required for the %s connection to:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+msgstr ""
+"%s-თან კავშირისთვის საჭიროა ავთენტიკაცია:\n"
+"\n"
+"<b>%s</b>\n"
+"\n"
+
+#, c-format
+msgid "Authentication is required for the %s connection:\n"
+msgstr "კავშირ %s-თვის საჭიროა ავთენტიკაცია:\n"
+
+msgid "Authentication required"
+msgstr "ავთენტიფიკაცია აუცილებელია"
+
+msgid "Authentication was cancelled"
+msgstr "ავთენტიკაცია გაუქმდა"
+
+msgid "Automatically resize remote framebuffer"
+msgstr "დისტანციური ფრეიმბაფერის ზომის ავტომატური ცვლილება"
+
+msgid "Available virtual machines"
+msgstr "ხელმისაწვდომი ვირტუალური მანქანები"
+
+msgid "C_onnect"
+msgstr "და_კავშირება"
+
+#, c-format
+msgid "Can't connect to channel: %s"
+msgstr "არხზე მიერთება შეუძლებელია: %s"
+
+msgid "Cannot determine the connection type from URI"
+msgstr "მითითებული მისამართიდან შეუძლებელია კავშირის ტიპის დადგენა"
+
+#, c-format
+msgid "Cannot determine the graphic type for the guest %s"
+msgstr "შეუძლებელია სტუმარი %s-ის გრაფიკის ტიპის დადგენა"
+
+#, c-format
+msgid "Cannot determine the host for the guest %s"
+msgstr "შეუძლებელია სტუმარ %s-ის ჰოსტის დადგენა"
+
+msgid "Cannot get guest state"
+msgstr "შეუძლებელია სტუმრის სტატუსის დადგენა"
+
+msgid "Change CD"
+msgstr "CD-ის შეცვლა"
+
+msgid "Checking guest domain status"
+msgstr "ვამოწმებ სტუმრის დომენის სტატუსს"
+
+msgid "Choose a virtual machine"
+msgstr "აირჩიეთ ვირტუალური მანქანა"
+
+msgid "Connect to SSH failed."
+msgstr "SSH კავშირის შეცდომა."
+
+msgid "Connect to channel unsupported."
+msgstr "არხზე მიერთება მხარდაუჭერელია."
+
+msgid "Connect to hypervisor"
+msgstr "ჰიპერვიზორთან მიერთება"
+
+msgid "Connected to graphic server"
+msgstr "გრაფიკულ სერვერთან მიერთება"
+
+#, c-format
+msgid "Connecting to UNIX socket failed: %s"
+msgstr "UNIX სოკეტთან კავშირის შეცდომა: %s"
+
+msgid "Connecting to graphic server"
+msgstr "ვუკავშირდები გრაფიკულ სერვერს"
+
+msgid "Connection _Address"
+msgstr "კავშირის _მისამართი"
+
+msgid "Connection details"
+msgstr "კავშირის დეტალები"
+
+msgid "Console support is compiled out!"
+msgstr "კონსოლის მხარდაჭერა ჩაშენებული არაა!"
+
+msgid ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+msgstr ""
+"Copyright (C) 2007-2012 Daniel P. Berrange\n"
+"Copyright (C) 2007-2020 Red Hat, Inc."
+
+msgid "Couldn't open oVirt session: "
+msgstr "oVirt-ის სესიის გახსნის შეცდომა: "
+
+#, c-format
+msgid "Creating UNIX socket failed: %s"
+msgstr "UNIX სოკეტის გახსნის შეცდომა: %s"
+
+#, c-format
+msgid "Current: %s"
+msgstr "მიმდინარე: %s"
+
+msgid "Cursor display mode: 'local' or 'auto'"
+msgstr "კურსორის ჩვენების რეჟიმი: 'ლოკალური' ან 'ავტო'"
+
+msgid "Customise hotkeys"
+msgstr "გამოსაძახებელი ღილაკების გამართვა"
+
+msgctxt "shortcut window"
+msgid "Devices"
+msgstr "მოწყობილობები"
+
+msgid "Direct connection with no automatic tunnels"
+msgstr "პირდაპირი კავშირი ავტომატური ტუნელების გარეშე"
+
+#, c-format
+msgid "Display _%d"
+msgstr "ეკრანი _%d"
+
+msgid "Display can only be attached through libvirt with --attach"
+msgstr "ეკრანის მიმაგრება შესაძლებელია მხოლოდ libvirt-ის --attach პარამეტრით"
+
+msgid "Display debugging information"
+msgstr "პროგრამის შიდა ინფორმაციის ჩვენება"
+
+msgid "Display verbose information"
+msgstr "მეტი ინფორმაცია"
+
+msgid "Display version information"
+msgstr "ვერსიის ჩვენება"
+
+msgid "Do not ask me again"
+msgstr "აღარ მკითხო"
+
+msgid "Do you want to close the session?"
+msgstr "ნამდვილად გსურთ სესიის დახურვა?"
+
+msgid "Enable kiosk mode"
+msgstr "კიოსკის რეჟიმის ჩართვა"
+
+msgid "Failed to change CD"
+msgstr "CD-ის შეცვლის შეცდომა"
+
+msgid "Failed to connect: "
+msgstr "კავშირის შეცდომა: "
+
+msgid "Failed to initiate connection"
+msgstr "დაკავშირების დაწყების შეცდომა"
+
+msgid "Failed to read stdin: "
+msgstr "შეცდომა stdin-ის კითხვისას: "
+
+msgid "File Transfers"
+msgstr "ფაილის გადაწერები"
+
+msgid "Finding guest domain"
+msgstr "სტუმრის დომენის ძებნა"
+
+msgid "Folder sharing"
+msgstr "საქაღალდის გაზიარება"
+
+msgid "For example, spice://foo.example.org:5900"
+msgstr "მაგალითად, spice://foo.example.org:5900"
+
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "მთელ ეკრანზე"
+
+msgid "GUID:"
+msgstr "GUID:"
+
+#, c-format
+msgid "Guest '%s' is not reachable"
+msgstr "სტუმარი %s მიუწვდომელია"
+
+msgid "Guest Details"
+msgstr "დეტალები სტუმარზე"
+
+msgid "Guest domain has shutdown"
+msgstr "სტუმრის დომენი გაითიშა"
+
+msgctxt "shortcut window"
+msgid "Guest input devices"
+msgstr "სტუმრის შემტანი მოწყობილობები"
+
+#, c-format
+msgid "Invalid file %s: "
+msgstr "არასწორი ფაილი %s: "
+
+#, c-format
+msgid "Invalid kiosk-quit argument: %s"
+msgstr "kiosk-quit-ის არასწორი არგუმენტი: %s"
+
+msgid "Invalid password"
+msgstr "არასწორი პაროლი"
+
+msgid "Leave fullscreen"
+msgstr "სრული ეკრანიდან გასვლა"
+
+msgid "Loading..."
+msgstr "ჩატვირთვა..."
+
+msgid "Machine"
+msgstr "მანქანა"
+
+msgid "More actions"
+msgstr "მეტი ქმედება"
+
+msgid "Name"
+msgstr "სახელი"
+
+msgid "Name:"
+msgstr "სახელი:"
+
+msgid "No ISO files in domain"
+msgstr "დიმენს არ გააჩნია ISO ფაილები"
+
+msgid "No connection was chosen"
+msgstr "კავშირი არჩეული არაა"
+
+msgid "No running virtual machine found"
+msgstr "არცერთი ვირტუალური მანქანა არაა გაშვებული"
+
+msgid "No virtual machine was chosen"
+msgstr "ვირტუალური მანქანა მონიშნული არაა"
+
+msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
+msgstr "მთელ ეკრანზე გახსნა (სტუმრის გაფართოების კლიენტის ზომებში ჩატევით)"
+
+msgid "Password:"
+msgstr "პაროლი:"
+
+msgid "Please add an extension to the file name"
+msgstr "გთხოვთ მიუთითოთ გაფართოებაც"
+
+msgid "Power _down"
+msgstr "გამორ_თვა"
+
+msgid "Preferences"
+msgstr "გამართვა"
+
+msgid "QEMU debug console"
+msgstr "QEMU-ს დამატებითი ინფორმაციის კონსოლი"
+
+msgid "QEMU human monitor"
+msgstr "QEMU-ს ადამიანის მონიტორი"
+
+msgid "Quit on given condition in kiosk mode"
+msgstr "მითითებული პირობის შესრულების შემთხვევაში kiosk რეჟიმიდან გამოსვლა"
+
+msgid "Read-only"
+msgstr "მხოლოდ კითხვისთვის"
+
+msgid "Recent connections"
+msgstr "ახლახანს დამყარებული კავშირები"
+
+msgid "Reconnect to domain upon restart"
+msgstr "რესტარტისას დომენთან თავიდან დაკავშირება"
+
+msgid "Refresh"
+msgstr "განახლება"
+
+msgctxt "shortcut window"
+msgid "Release cursor"
+msgstr "კურსორის გათავისუფლება"
+
+msgid ""
+"Remap keys format key=keymod+key e.g. F1=SHIFT+CTRL+F1,1=SHIFT+F1,ALT_L=Void"
+msgstr ""
+"მალსახმობი კლავშების ფორმატის შეცვლა ღილაკი=დამ.ღილაკი+ღილაგი. მაგ. F1=SHIFT"
+"+CTRL+F1,1=SHIFT+F1,ALT_L=არაფერი"
+
+msgid "Remote Viewer"
+msgstr "დისტანციურად ნახვა"
+
+msgid ""
+"Remote Viewer provides a graphical viewer for the guest OS display. At this "
+"time it supports guest OS using the VNC or SPICE protocols. Further "
+"protocols may be supported in the future as user demand dictates. The viewer "
+"can connect directly to both local and remotely hosted guest OS, optionally "
+"using SSL/TLS encryption."
+msgstr ""
+"Remote viewer საშუალებას გაძლევთ გქონდეთ გრაფიკული წვდომა სტუმარი ოს-ის "
+"კონსოლთან. ამ დროისთვის მას სტუმარი ოს-ის მხარდაჭერა VNC და SPICE "
+"პროტოკოლებით გააჩნია. დამატებითი პროტოკოლები შეიძლება მომავალში დაემატოს, "
+"მოთხოვნიდან გამომდინარე. მნახველს შეუძლია დაკავშირება ორივე, ლოკალურ და "
+"დაშორებულ სტუმარ ოს-თან, სურვილისამებრ SSL/TLS შიფრაციით."
+
+msgid "Remote viewer client"
+msgstr "დისტანციურად ნახვის კლიენტი"
+
+msgid "Remotely access virtual machines"
+msgstr "ვირტუალურ მანქანებთან დაშორებული წვდომა"
+
+#, c-format
+msgid "Run '%s --help' to see a full list of available command line options\n"
+msgstr "გაუშვით '%s --help' მისი ხელმისწვდომი პარამეტრების სიის სანახავად\n"
+
+msgid "Save screenshot"
+msgstr "ეკრანის ანაბეჭდის შენახვა"
+
+msgid "Screenshot.png"
+msgstr "ეკრანის ანაბეჭდი.png"
+
+#. Create the widgets
+msgid "Select USB devices for redirection"
+msgstr "აირჩიეთ USB მოწყობილობები გადამისამართებისთვის"
+
+msgid "Select the virtual machine only by its ID"
+msgstr "არჩიეთ ვირტუალური მანქანა მხოლოდ მისი ID-ით"
+
+msgid "Select the virtual machine only by its UUID"
+msgstr "აირჩიეთ ვირტუალური მანქანა მხოლოდ მისი UUID-ით"
+
+msgid "Select the virtual machine only by its name"
+msgstr "აირჩიეთ ვირტუალური მანქანა მხოლოდ მისი სახელით"
+
+msgid "Selected"
+msgstr "არჩეულია"
+
+msgid "Send key"
+msgstr "ღილაკის გაგზავნა"
+
+msgctxt "shortcut window"
+msgid "Send secure attention (Ctrl-Alt-Del)"
+msgstr "ყურადღების დაცულად მიქცევა (Ctrl-Alt-Del)"
+
+msgid "Serial"
+msgstr "სერიული ნომერი"
+
+msgid "Set window title"
+msgstr "ფანჯრის სათაურის შეცვლა"
+
+msgid "Share client session"
+msgstr "კლიენტის სესიის გაზიარება"
+
+msgid "Share clipboard"
+msgstr "გაცვლის ბაფერის გაზიარება"
+
+msgid "Share folder"
+msgstr "საქაღალდის გაზიარება"
+
+msgid "Show / hide password text"
+msgstr "პაროლის ჩვენება / დამალვა"
+
+msgctxt "shortcut window"
+msgid "Smartcard insert"
+msgstr "შეაერთეთ Smartcard"
+
+msgctxt "shortcut window"
+msgid "Smartcard remove"
+msgstr "გამოაძრეთ Smartcard"
+
+msgid "Spice"
+msgstr "Spice პროტოკოლი"
+
+msgid "Switch to fullscreen view"
+msgstr "მთელ ეკრანზე გადართვა"
+
+msgid "The Fedora Translation Team"
+msgstr "Fedora-ს მთარგმნელების ჯგუფი"
+
+#, c-format
+msgid "Transferring %u file of %u..."
+msgid_plural "Transferring %u files of %u..."
+msgstr[0] "გადაწერა ფაილი %u-დან %u..."
+msgstr[1] "გადაწერა ფაილი %u-დან %u-ი..."
+
+msgid "Transferring 1 file..."
+msgstr "1 ფაილის გადაწერა..."
+
+msgctxt "shortcut window"
+msgid "USB device reset"
+msgstr "USB მოწყობილობის გადატვირთვა"
+
+msgid "USB device selection"
+msgstr "USB მოწყობილობის არჩევანი"
+
+#, c-format
+msgid "USB redirection error: %s"
+msgstr "USB-ის გადამისამართების შეცდომა: %s"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server at %s: %s\n"
+msgstr "დისტანციურ სამუშაო დაფასთან %s ავთენტიკაციის შეცდომა: %s\n"
+
+#, c-format
+msgid "Unable to authenticate with remote desktop server: %s"
+msgstr "დისტანციურ სამუშაო დაფასთან ავთენტიკაციის სეცდომა: %s"
+
+#, c-format
+msgid "Unable to connect to libvirt with URI: %s."
+msgstr "libvirt-თან კავშირის შეცდომა: %s."
+
+#, c-format
+msgid "Unable to connect to the graphic server %s"
+msgstr "გრაფიკულ სერვერთან კავშირის შეცდომა %s"
+
+#, c-format
+msgid "Unable to connect: %s"
+msgstr "კავშირის შეცდომა: %s"
+
+msgid "Unable to connnect to oVirt"
+msgstr "oVirt-თან დაკავშირების შეცდომა"
+
+#, c-format
+msgid "Unable to determine image format for file '%s'"
+msgstr "დისკის ფორმატის დადგენა ფაილისთვის '%s' შეუძლებელია"
+
+msgctxt "Unknown UUID"
+msgid "Unknown"
+msgstr "უცნობი"
+
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr "უცნობი"
+
+msgid "Unspecified error"
+msgstr "მიუთითებელი შეცდომა"
+
+#, c-format
+msgid "Unsupported authentication type %u"
+msgstr "%u-თან ავთენტიკაციის მხარდაჭერა არ არსებობს"
+
+#, c-format
+msgid "Unsupported graphic type '%s'"
+msgstr "გრაფიკის მხარდაჭერა არ არსებობს: %s"
+
+msgid "Username:"
+msgstr "მომხმარებლის სახელი:"
+
+msgid "VNC does not provide GUID"
+msgstr "VNC-მა არ მოგვაწოდა GUID"
+
+msgctxt "shortcut window"
+msgid "Viewer"
+msgstr "მაყურებელი"
+
+msgid "Virt Viewer"
+msgstr "ვირტუალური მანქანების მენეჯერი"
+
+msgid "Virt-Viewer connection file"
+msgstr "Virt-Viewer-ის კავშირის ფაილი"
+
+#, c-format
+msgid "Virtual machine %s is not running"
+msgstr "ვირტუალური მანქანა %s გაშვებული არაა"
+
+msgid "Virtual machine graphical console"
+msgstr "ვირტუალური მანქანის გრაფიკული კონსოლი"
+
+msgid "Wait for domain to start"
+msgstr "დომენის სტარტის მოლოდინი"
+
+#, c-format
+msgid "Waiting for display %d..."
+msgstr "დაელოდეთ ეკრანს %d..."
+
+msgid "Waiting for guest domain to be created"
+msgstr "სტუმრის დომენის შექმნის მოლოდინი"
+
+msgid "Waiting for guest domain to re-start"
+msgstr "სტუმრის დომენის რესტარტის მოლოდინი"
+
+msgid "Waiting for guest domain to start"
+msgstr "სტუმრის დომენის გაშვების მოლოდინი"
+
+msgid "Waiting for libvirt to start"
+msgstr "libvirt-ის გაშვების მოლოდინი"
+
+msgid "Zoom _In"
+msgstr "გადიდება"
+
+msgid "Zoom _Out"
+msgstr "დაპატარავება"
+
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "გადიდება"
+
+#, c-format
+msgid "Zoom level must be within %d-%d\n"
+msgstr "გადიდების მნიშვნელობის შუალედია %d-%d\n"
+
+msgid "Zoom level of window, in percentage"
+msgstr "ფანჯრის გადიდების ზომა, პროცენტებში"
+
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "დაპატარავება"
+
+msgctxt "shortcut window"
+msgid "Zoom reset"
+msgstr "გადიდების გათიშვა"
+
+msgid "[none]"
+msgstr "[არცერთი]"
+
+msgid "_About"
+msgstr "_შესახებ"
+
+msgid "_Auto resize"
+msgstr "_ზომის ავტომატური შეცვლა"
+
+msgid "_Cancel"
+msgstr "_გაუქმება"
+
+msgid "_Close"
+msgstr "_დახურვა"
+
+msgid "_Guest details"
+msgstr "_დეტალები სტუმარზე"
+
+msgid "_Keyboard shortcuts"
+msgstr "_კლავიატურის მალსახმობი ღილაკები"
+
+msgid "_Normal Size"
+msgstr "_ნორმალური ზომა"
+
+msgid "_OK"
+msgstr "_დიახ"
+
+msgid "_Pause"
+msgstr "_გაჩერება"
+
+msgid "_Preferences…"
+msgstr "_გამართვა…"
+
+msgid "_Reset"
+msgstr "_საწყის მნიშვნელობაზე დაბრუნება"
+
+msgid "_Save"
+msgstr "_შენახვა"
+
+msgid "_Screenshot"
+msgstr "_ეკრანის ანაბეჭდი"
+
+msgid "failed to parse oVirt URI"
+msgstr "oVirt-ის URI-ის ანალიზის შეცდომა"
+
+msgid "label"
+msgstr "ჭდე"
+
+#, c-format
+msgid "oVirt VM %s has no display"
+msgstr "Ovirt-ის VM %s-ს ეკრანი არ აქვს"
+
+#, c-format
+msgid "oVirt VM %s has no host information"
+msgstr "oVirt-ის VM %s-ს არ გააჩნია ინფორმაცია ჰოსტის შესახებ"
+
+#, c-format
+msgid "oVirt VM %s has unknown display type: %u"
+msgstr "oVirt-ის VM %s-ს გააჩნია ეკრანის უცნობი ტიპი: %u"
+
+#, c-format
+msgid "oVirt VM %s is not running"
+msgstr "oVirt-ის VM %s გაშვებული არაა"
+
+msgid "only SSH or UNIX socket connection supported."
+msgstr "მხარდაჭერილია კავშირი მხოლოდ SSH ან UNIX socket-ით."

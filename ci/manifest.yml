@@ -1,0 +1,69 @@
+projects:
+  - virt-viewer
+  - libvirt+dist
+  - libvirt-glib+dist
+  - gtk-vnc+dist
+
+gitlab:
+  namespace: virt-viewer
+  project: virt-viewer
+
+targets:
+  centos-stream-8:
+    projects:
+      - virt-viewer
+      - libvirt
+      - libvirt-glib
+      - gtk-vnc
+
+    jobs:
+      - arch: x86_64
+        variables:
+          RPM: skip
+
+  debian-10: x86_64
+
+  debian-sid:
+    jobs:
+      - arch: x86_64
+        allow-failure: true
+
+  fedora-35: x86_64
+
+  fedora-36: x86_64
+
+  fedora-rawhide:
+    jobs:
+      - arch: x86_64
+        allow-failure: true
+
+      - arch: mingw32
+        allow-failure: true
+        artifacts:
+          expiry: 30 days
+          paths:
+            - data/virt-viewer-x86*.msi
+
+      - arch: mingw64
+        allow-failure: true
+        artifacts:
+          expiry: 30 days
+          paths:
+            - data/virt-viewer-x64*.msi
+
+  opensuse-leap-153:
+    jobs:
+      - arch: x86_64
+        variables:
+          RPM: skip
+
+  opensuse-tumbleweed:
+    jobs:
+      - arch: x86_64
+        allow-failure: true
+        variables:
+          RPM: skip
+
+  ubuntu-2004: x86_64
+
+  ubuntu-2204: x86_64
